@@ -19,7 +19,7 @@ header {
     color: white;
     padding: 10px;
     display: grid;
-    grid-template-columns: 100px 1fr 50px;
+    grid-template-columns: 120px 1fr 50px;
     align-items: center;
 
 }
