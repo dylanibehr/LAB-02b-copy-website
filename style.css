@@ -1,9 +1,46 @@
 body {
+color: lightsteelblue;
+height: 100vh;
+margin: 0;
+padding: 0;
+display: grid;
 
-color: red;
+grid-template-rows: 75px 1fr 20px
 
 }
 
 * {
     box-sizing: border-box;
+}
+
+
+header {
+    background: indigo;
+    color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 1fr 50px;
+    align-items: center;
+
+}
+
+nav {
+    justify-self: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+footer {
+    place-self: center;
+    background: steelblue;
+    color: aliceblue;
+    font-size: .8rem;
+}
+
+main{
+overflow-y: auto;
+padding: 8px;
+
 }
